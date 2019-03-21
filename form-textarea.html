@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>PHP Form</title>
+    </head>
+    <body>
+        <h2>Demo Mengirim Data ke Server Menggunakan Kontrol TEXTAREA</h2>
+        <form action="textarea.php" method="post">
+            <table>
+                <tr>
+                    <td>ISBN</td>
+                    <td> : </td>
+                    <td>
+                        <input type="text" name="txtisbn" size="20" maxlength="13" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Judul Buku</td>
+                    <td> : </td>
+                    <td>
+                        <input type="text" name="txtjudul" size="70" maxlength="75" />
+</td>
+                </tr>
+                <tr>
+                    <td>Pengarang</td>
+                    <td> : </td>
+                    <td>
+                        <input type="text" name="txtpengarang" size="30" maxlength="25" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sinopsis</td>
+                    <td> : </td>
+                    <td>
+                        <textarea name="txtareasinopsis" cols="60" rows="15" ></textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input type="submit" name="btnSubmit" value="Kirim ke Server" />
+
+                    </td>
+                </tr></table></form></body></html>
+                

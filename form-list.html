@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>PHP Form</title>
+    </head>
+    <body>
+        <h2>Demo Mengirim Data ke Server
+            Menggunakan Kontrol Listbox dan Combobox</h2>
+            <form action = "list.php" method = "POST">
+                <p><u>Kontrol Listbox</u></p>
+                Warna favorit:<br />
+                <select name = "warna" size = "6">
+                    <option value = "Merah">Merah</option>
+                    <option value = "Hijau">Hijau</option> 
+                    <option value = "Biru">Biru</option> 
+                    <option value = "Putih">Putih</option> 
+                    <option value = "Kuning">Kuning</option>  
+                </select>
+
+                <p><u>Kontrol Combobox</u></p>
+                Jenis kelamin: <br />
+                <select name = "jeniskelamin" size = "1">
+                    <option value = "Pria">Pria</option> 
+                    <option value = "Wanita">Wanita</option> 
+                </select>
+
+                <input type="submit" name = "btnsubmit" value="Kirim ke server" />
+            </form>
+    </body>
+</html>

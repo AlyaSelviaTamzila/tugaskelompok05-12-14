@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PHP FORM</title>
+  </head>
+  <body>
+    <h2>Mengirim Data ke Server Menggunakan Kontrol Text</h2>
+    <form action="text.php" method="post">
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="txtnama" size="30" maxlength="25"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Alamat</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="txtalamat" size="50" maxlength="50"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Kota</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="txtkota" size="30" maxlength="25"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Telepon</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="txttelp" size="25" maxlength="15"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>
+            <input type="submit" name="btnSubmit" value="Kirim ke Server">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
